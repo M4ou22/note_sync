@@ -6,7 +6,7 @@ export default function Home() {
       {/* Navigation */}
       <nav className="border-b border-zinc-200 bg-white">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-5">
-          {/* Logo */}
+
           {/* Logo */}
           <Link
             href="/"
@@ -96,9 +96,8 @@ export default function Home() {
       {/* Hero Section */}
       <section className="px-6 py-20 sm:py-28">
         <div className="mx-auto max-w-4xl text-center">
-          <div className="mb-6 inline-flex items-center rounded-full border border-indigo-200 bg-indigo-50 px-4 py-2 text-sm font-medium text-indigo-700">
-            ✦ Your thoughts, organized
-          </div>
+
+          {/* Removed: "✦ Your thoughts, organized" */}
 
           <h1 className="text-5xl font-bold tracking-tight text-zinc-900 sm:text-6xl">
             Capture your thoughts,
@@ -146,6 +145,7 @@ export default function Home() {
           </div>
 
           <div className="grid gap-6 md:grid-cols-3">
+
             {/* Feature 1 */}
             <div className="rounded-2xl border border-zinc-200 bg-white p-7 shadow-sm transition hover:-translate-y-1 hover:shadow-md">
               <div className="mb-5 flex h-12 w-12 items-center justify-center rounded-xl bg-indigo-100 text-2xl">
